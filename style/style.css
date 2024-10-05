@@ -39,9 +39,15 @@ h1{
     border-radius: 6px;
     font-size: 24px; 
     font-family: "Gamja Flower", sans-serif;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 .btn-parent{
     text-align: center;
     margin: 20px 0;
+}
+
+.btn:hover{
+    background-color: black;
 }
